@@ -39,7 +39,6 @@ body{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    
 }
 h1{
     font-family: 'EB Garamond', serif;
@@ -53,12 +52,13 @@ input{
     font-family: 'Montserrat', sans-serif;
     font-weight: 500;
     font-size: 16px;
-    width: 480px;
-    height: 64px;
     color: #467745;
     background-color: white;
-    display: flex;
 
+    width: 480px;
+    height: 64px;
+
+    display: flex;
     margin: 20px;
     padding: 20px;
 
@@ -70,15 +70,12 @@ input{
 
 .checkbox{
     display: flex;
-    
 }
 input[type="checkbox"]{
-    
     width: 20px;
     height: 20px;
     margin: 10px;
     margin-left: 20px;
-    
 }
 label{
     color: #467745;
@@ -90,19 +87,18 @@ button{
     font-weight: 400;
     font-size: 21px;
     text-transform: uppercase;
-    width: 280px;
-    height: 80px;
-    background-color: #467745;
     color: #f7e4d4;
+    background-color: #467745;
     border-radius: 50px;
     letter-spacing: 0.2em;
+
+    width: 280px;
+    height: 80px;
+
     margin: 26px;
-   
     position:relative;
-     
     left:50%;
     transform: translate(-60%, 0%);
-  
 }
 
 @media only screen and (max-width: 520px) {
